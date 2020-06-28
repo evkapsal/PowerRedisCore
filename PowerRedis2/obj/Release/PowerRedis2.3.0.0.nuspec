@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PowerRedis2</id>
+    <version>3.0.0</version>
+    <authors>PowerRedis2</authors>
+    <owners>PowerRedis2</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <releaseNotes>[3.0.0] EvangelosKapsalakis: Migrate to .NETCore 3.1</releaseNotes>
+    <tags>PowerShell, Redis, PowerRedis</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ServiceStack.Client.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.Common.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.Interfaces.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.OrmLite.SqlServer.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.Redis.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceStack.Text.Core" version="5.9.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management.Automation" version="7.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/PowerRedis.psd1" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.applicationinsights\2.13.1\lib\netstandard2.0\Microsoft.ApplicationInsights.dll" target="lib\netcoreapp3.1\Microsoft.ApplicationInsights.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.cryptography.internal\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.cryptography.keyderivation\2.1.1\lib\netcoreapp2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.hosting\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Hosting.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.hosting.abstractions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.hosting.server.abstractions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Http.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.abstractions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.extensions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Http.Extensions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.http.features\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.webutilities\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll" target="lib\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.binder\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.environmentvariables\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.fileextensions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.json\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.usersecrets\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection\2.1.1\lib\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.fileproviders.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.fileproviders.physical\2.1.1\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.filesystemglobbing\2.1.1\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.hosting.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.logging\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Logging.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.logging.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.objectpool\2.1.1\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Options.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll" target="lib\netcoreapp3.1\Microsoft.Extensions.Primitives.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.net.http.headers\2.1.1\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll" target="lib\netcoreapp3.1\Microsoft.Net.Http.Headers.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.win32.registry.accesscontrol\4.7.0\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll" target="lib\netcoreapp3.1\Microsoft.Win32.Registry.AccessControl.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.win32.systemevents\4.7.0\lib\netstandard2.0\Microsoft.Win32.SystemEvents.dll" target="lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll" target="lib\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.client.core\5.9.0\lib\netstandard2.0\ServiceStack.Client.dll" target="lib\netcoreapp3.1\ServiceStack.Client.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.common.core\5.9.0\lib\netstandard2.0\ServiceStack.Common.dll" target="lib\netcoreapp3.1\ServiceStack.Common.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.core\5.9.0\lib\netstandard2.0\ServiceStack.dll" target="lib\netcoreapp3.1\ServiceStack.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.interfaces.core\5.9.0\lib\netstandard2.0\ServiceStack.Interfaces.dll" target="lib\netcoreapp3.1\ServiceStack.Interfaces.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.ormlite.core\5.9.0\lib\netstandard2.0\ServiceStack.OrmLite.dll" target="lib\netcoreapp3.1\ServiceStack.OrmLite.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.ormlite.sqlserver.core\5.9.0\lib\netstandard2.0\ServiceStack.OrmLite.SqlServer.dll" target="lib\netcoreapp3.1\ServiceStack.OrmLite.SqlServer.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.redis.core\5.9.0\lib\netstandard2.0\ServiceStack.Redis.dll" target="lib\netcoreapp3.1\ServiceStack.Redis.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\servicestack.text.core\5.9.0\lib\netcoreapp2.1\ServiceStack.Text.dll" target="lib\netcoreapp3.1\ServiceStack.Text.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll" target="lib\netcoreapp3.1\System.CodeDom.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll" target="lib\netcoreapp3.1\System.Configuration.ConfigurationManager.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.data.sqlclient\4.8.1\lib\netcoreapp2.1\System.Data.SqlClient.dll" target="lib\netcoreapp3.1\System.Data.SqlClient.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.diagnostics.eventlog\4.7.0\lib\netstandard2.0\System.Diagnostics.EventLog.dll" target="lib\netcoreapp3.1\System.Diagnostics.EventLog.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.directoryservices\4.7.0\lib\netstandard2.0\System.DirectoryServices.dll" target="lib\netcoreapp3.1\System.DirectoryServices.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.drawing.common\4.7.0\lib\netstandard2.0\System.Drawing.Common.dll" target="lib\netcoreapp3.1\System.Drawing.Common.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.management\4.7.0\lib\netstandard2.0\System.Management.dll" target="lib\netcoreapp3.1\System.Management.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.private.servicemodel\4.7.0\lib\netstandard2.0\System.Private.ServiceModel.dll" target="lib\netcoreapp3.1\System.Private.ServiceModel.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.1\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.dll" target="lib\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.security.cryptography.pkcs\4.7.0\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll" target="lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" target="lib\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\system.security.cryptography.xml\4.5.0\lib\netstandard2.0\System.Security.Cryptography.Xml.dll" target="lib\netcoreapp3.1\System.Security.Cryptography.Xml.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll" target="lib\netcoreapp3.1\System.Security.Permissions.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.servicemodel.primitives\4.7.0\lib\netcoreapp2.1\System.ServiceModel.Primitives.dll" target="lib\netcoreapp3.1\System.ServiceModel.Primitives.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.servicemodel.primitives\4.7.0\lib\netcoreapp2.1\System.ServiceModel.dll" target="lib\netcoreapp3.1\System.ServiceModel.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.text.encoding.codepages\4.7.1\lib\netstandard2.0\System.Text.Encoding.CodePages.dll" target="lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.windows.extensions\4.7.0\lib\netcoreapp3.0\System.Windows.Extensions.dll" target="lib\netcoreapp3.1\System.Windows.Extensions.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.management.infrastructure.runtime.unix\2.0.0\runtimes\unix\lib\netstandard1.6\Microsoft.Management.Infrastructure.dll" target="lib\netcoreapp3.1\Microsoft.Management.Infrastructure.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.management.infrastructure.runtime.win\2.0.0\runtimes\win-arm\lib\netstandard1.6\Microsoft.Management.Infrastructure.Native.dll" target="lib\netcoreapp3.1\Microsoft.Management.Infrastructure.Native.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.management.infrastructure.runtime.win\2.0.0\runtimes\win-arm\native\Microsoft.Management.Infrastructure.Native.Unmanaged.dll" target="lib\netcoreapp3.1\Microsoft.Management.Infrastructure.Native.Unmanaged.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.management.infrastructure.runtime.win\2.0.0\runtimes\win-arm\native\mi.dll" target="lib\netcoreapp3.1\mi.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.management.infrastructure.runtime.win\2.0.0\runtimes\win-arm\native\miutils.dll" target="lib\netcoreapp3.1\miutils.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.powershell.coreclr.eventing\7.0.2\runtimes\win\lib\netcoreapp3.1\Microsoft.PowerShell.CoreCLR.Eventing.dll" target="lib\netcoreapp3.1\Microsoft.PowerShell.CoreCLR.Eventing.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.powershell.native\7.0.0\runtimes\win-arm\native\PowerShell.Core.Instrumentation.dll" target="lib\netcoreapp3.1\PowerShell.Core.Instrumentation.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\microsoft.powershell.native\7.0.0\runtimes\win-arm\native\pwrshplugin.dll" target="lib\netcoreapp3.1\pwrshplugin.dll" />
+    <file src="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-arm64\native\sni.dll" target="lib\netcoreapp3.1\sni.dll" />
+    <file src="C:\Users\Vangelis\.nuget\packages\system.management.automation\7.0.2\runtimes\unix\lib\netcoreapp3.1\System.Management.Automation.dll" target="lib\netcoreapp3.1\System.Management.Automation.dll" />
+    <file src="C:\Users\Vangelis\Source\Repos\powerredis\PowerRedis2\bin\Release\netcoreapp3.1\PowerRedis2.dll" target="lib\netcoreapp3.1\PowerRedis2.dll" />
+    <file src="C:\Users\Vangelis\Source\Repos\powerredis\PowerRedis2\PowerRedis.psd1" target="content\PowerRedis.psd1" />
+    <file src="C:\Users\Vangelis\Source\Repos\powerredis\PowerRedis2\PowerRedis.psd1" target="contentFiles\any\netcoreapp3.1\PowerRedis.psd1" />
+  </files>
+</package>
